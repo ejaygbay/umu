@@ -1,6 +1,7 @@
 .header__logo img {
-    margin-top: -34px;
-    height: 70px;
+    margin-top: -26px;
+    /* height: 70px; */
+    margin-left: -10%;
 }
 
 hr {
@@ -10,41 +11,19 @@ hr {
 
 /* RESPONSIVE QUARIES */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     hr {
         display: block;
     }
     /* For logo and name in the menu slider */
     .offcanvas__logo img {
-        height: 100px;
-        margin-top: -40px;
-        margin-left: -6px;
+        margin-top: -18%;
+        margin-left: -24px;
     }
-    .offcanvas__logo a {
-        display: grid;
-        grid-template-columns: 40% 60%;
-    }
-    .offcanvas__logo a h5 {
-        margin-top: -16px;
-        margin-left: -12px;
-    }
-    .offcanvas__logo a h4 {
-        margin-top: -50px;
-        margin-left: 80px;
+    .slicknav_menu {
+        margin-top: -20px;
     }
     /* Header menu logo and name */
-    .header__logo a {
-        display: grid;
-        grid-template-columns: 20% 80%;
-    }
-    .header__logo a h5 {
-        margin-top: -24px;
-        margin-left: -12px;
-    }
-    .header__logo a h4 {
-        margin-top: -40px;
-        margin-left: 64px;
-    }
     .container .canvas__open {
         margin-top: -14px;
         height: 40px;
@@ -55,27 +34,66 @@ hr {
     .container .canvas__open i {
         margin-top: 4px;
     }
-    .hero {
-        margin-top: -30px;
+    .header__logo img {
+        margin-top: -38px;
     }
+}
+
+.hero {
+    margin-top: -30px;
 }
 
 
 /* Medium Device = 1200px */
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* .school-name {
+        margin-top: -30%;
+    }
+    .header__logo img {
+        margin-left: 0%;
+    }
+    .header__logo a {
+        grid-template-columns: 40% 60%;
+    } */
+}
 
 
 /* Tablet Device = 768px */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* .school-name {
+        margin-top: -6%;
+        margin-left: -52%;
+    }
+    .header__logo img {
+        margin-left: 0%;
+    }
+    .header__logo a {
+        grid-template-columns: 40% 60%;
+    } */
+}
 
 
 /* Wide Mobile = 480px */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    /* .school-name {
+        margin-top: -8%;
+    }
+    .header__logo img {
+        margin-left: 0%;
+    } */
+}
 
 
 /* Small Device = 320px */
 
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+    /* .school-name {
+        margin-top: -8%;
+    }
+    .header__logo img {
+        margin-left: 2%;
+    } */
+}
