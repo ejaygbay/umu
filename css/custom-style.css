@@ -3,60 +3,79 @@
     height: 70px;
 }
 
-
-/* For logo and name in the menu slider */
-
-.offcanvas__logo img {
-    height: 100px;
-    margin-top: -40px;
-    margin-left: -6px;
-}
-
-.offcanvas__logo a {
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
-.offcanvas__logo a h5 {
-    margin-top: -16px;
-    margin-left: -12px;
-}
-
-.offcanvas__logo a h4 {
-    margin-top: -50px;
-    margin-left: 80px;
+hr {
+    display: none;
 }
 
 
-/* Header menu logo and name */
+/* RESPONSIVE QUARIES */
 
-.header__logo a {
-    display: grid;
-    grid-template-columns: 20% 80%;
+@media screen and (max-width: 992px) {
+    hr {
+        display: block;
+    }
+    /* For logo and name in the menu slider */
+    .offcanvas__logo img {
+        height: 100px;
+        margin-top: -40px;
+        margin-left: -6px;
+    }
+    .offcanvas__logo a {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .offcanvas__logo a h5 {
+        margin-top: -16px;
+        margin-left: -12px;
+    }
+    .offcanvas__logo a h4 {
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    /* Header menu logo and name */
+    .header__logo a {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .header__logo a h5 {
+        margin-top: -24px;
+        margin-left: -12px;
+    }
+    .header__logo a h4 {
+        margin-top: -40px;
+        margin-left: 64px;
+    }
+    .container .canvas__open {
+        margin-top: -14px;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        margin-right: 6px;
+    }
+    .container .canvas__open i {
+        margin-top: 4px;
+    }
+    .hero {
+        margin-top: -30px;
+    }
 }
 
-.header__logo a h5 {
-    margin-top: -24px;
-    margin-left: -12px;
-}
 
-.header__logo a h4 {
-    margin-top: -40px;
-    margin-left: 64px;
-}
+/* Medium Device = 1200px */
 
-.container .canvas__open {
-    margin-top: -14px;
-    height: 40px;
-    width: 40px;
-    font-size: 30px;
-    margin-right: 6px;
-}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
 
-.container .canvas__open i {
-    margin-top: 4px;
-}
 
-.hero {
-    margin-top: -30px;
-}
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {}
