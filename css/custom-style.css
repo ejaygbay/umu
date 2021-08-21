@@ -1,0 +1,62 @@
+.header__logo img {
+    margin-top: -34px;
+    height: 70px;
+}
+
+
+/* For logo and name in the menu slider */
+
+.offcanvas__logo img {
+    height: 100px;
+    margin-top: -40px;
+    margin-left: -6px;
+}
+
+.offcanvas__logo a {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.offcanvas__logo a h5 {
+    margin-top: -16px;
+    margin-left: -12px;
+}
+
+.offcanvas__logo a h4 {
+    margin-top: -50px;
+    margin-left: 80px;
+}
+
+
+/* Header menu logo and name */
+
+.header__logo a {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.header__logo a h5 {
+    margin-top: -24px;
+    margin-left: -12px;
+}
+
+.header__logo a h4 {
+    margin-top: -40px;
+    margin-left: 64px;
+}
+
+.container .canvas__open {
+    margin-top: -14px;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.container .canvas__open i {
+    margin-top: 4px;
+}
+
+.hero {
+    margin-top: -30px;
+}
