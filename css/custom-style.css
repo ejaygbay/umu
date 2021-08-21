@@ -8,6 +8,11 @@ hr {
     display: none;
 }
 
+.hero__text h2 {
+    background: whitesmoke;
+    padding: 4px 10px
+}
+
 
 /* RESPONSIVE QUARIES */
 
