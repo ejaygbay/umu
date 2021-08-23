@@ -56,6 +56,13 @@ hr {
     .header__logo img {
         margin-top: -38px;
     }
+    .consultation__form {
+        margin-top: 30px;
+    }
+    .consultation__text {
+        padding: 70px 0;
+        /* position: relative; */
+    }
 }
 
 .slider {
